@@ -2,7 +2,9 @@
 
 Before you go very far, you'll need to flash the ESPHome software onto your ESP32. This will involve connecting it up with a cable to wherever you run ESPHome (in my case, that's my Home Assistant server). How you do this depends on your situation, I'll assume you know how to do it (if not, there are some good guides on the ESPHome website and around the web).
 
-I used the code below to make my project work. It leverages this project: https://github.com/ginkage/MHI-AC-Ctrl-ESPHome. There's lots of great information there, including lots of debugging and troubleshooting information. The main thing to check is the "frame size". If you get a lot of `mhi_ac_ctrl_core.loop error: -2` in the log, then change the frame size. It's all marked up in the code below:
+I used the code below to make my project work. It leverages this project: https://github.com/ginkage/MHI-AC-Ctrl-ESPHome. There's lots of great information there, including lots of debugging and troubleshooting information. The main thing to check is the "frame size". If you get a lot of `mhi_ac_ctrl_core.loop error: -2` in the log, then change the frame size. It's all marked up in the code below.
+
+It's perfectly okay to run the ESP without connecting it to an actual aircon unit. It's well worth trying it while it's still on the desk, but it'll emit a lot of `mhi_ac_ctrl_core.loop error: -4` errors. Each of these flashes the on-board LED too, so it's actually quite easy to see if it's running just by looking at it.
 
 ```
 esphome:
