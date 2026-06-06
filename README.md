@@ -34,6 +34,12 @@ When I bought the connector, it came with pre-crimped wires attached, and also c
 
 ## How to make it
 
+Before you start, I recommend getting your ESP32 flashed with the ESPHome software. Initially this requires plugging it in with a cable, so it's easiest to get that done before you do any soldering or fitting it into a box. Once it's done, you can update it wirelessly.
+
+For software, see [SOFTWARE.md](SOFTWARE.md).
+
+## Electronics
+
 I made a Fritzing diagram of the circuit required. In the diagram, I couldn't find a component that looked exactly like my buck converters, and nor could I find the particular connector, but I'm sure it's clear enough to figure out what to do.
 
 ![Fritzing diagram](fritzing.png)
@@ -43,3 +49,7 @@ I found I could use the spare ground on the level shifter (on the HV side) as a 
 ![Final Build](build.jpg)
 
 I made a small 3D printed box with a sliding lid (Sketchup and STL files are in the `3dprinter` directory). The box is small enough that it can be placed in the space behind the metal cover that goes over the side circuit board. The box provides convenient electrical and physical protection, whilst also mounting and spacing the components quite easily. I bent the ESP's pins we're using sideways and trimmed off the other pins (my ESPs came fully soldered). This helps keep the box thin so it fits in the AC unit easily. I stuck the boards down using small sticky pads, although screws are also possible.
+
+## Fitting the project to the aircon unit
+
+See [FITTING.md](FITTING.md)
