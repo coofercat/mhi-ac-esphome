@@ -8,7 +8,7 @@ First of all, take the front door off the unit to end up with something like thi
 
 Remove the filters (mine were pretty clean, but now's a great time to clean up a bit!). Next, locate and remove the two screws in the front of the unit. Also find the two hidden screws covered with a sort of clip:
 
-![hidden screws](ac-pictures/ac-with-hidden-screws.jpg)
+![hidden screws](ac-pictures/hidden-screws.jpg)
 
 Getting the cover off the aircon unit is probably the worst part of this work. I'm sure there's a nice trick to it, but I couldn't figure out how to do it without making some pretty scary sounding cracking noises and bending plastic more than I'd imagine should be necessary. In short, there
 are three "one way" clips at the back on top of the unit. These clips don't come out easily, and even when you've got the cover at a difficult angle, they still don't want to come out "nicely". The best I could do was a bit of brute force and ignorance, and then the main cover came off.
@@ -25,10 +25,10 @@ Locate the connector marked **CNS(SC-BIKIN)(WH)** and **CNSA(WH)**. If you have 
 
 On CNSA, the pinout from left to right on my photo is:
 
-+12V (orange in my circuit)
-SCL (yellow in my circuit)
-MOSI (white in my circuit)
-MISO (red in my circuit)
-GND (black in my circuit)
+1. +12V (orange in my circuit)
+2. SCL (yellow in my circuit)
+3. MOSI (white in my circuit)
+4. MISO (red in my circuit)
+5. GND (black in my circuit)
 
 Accidentally connecting +12V to any of the other 4 pins is likely to end up damaging your aircon unit. Be careful!
