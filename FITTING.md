@@ -32,3 +32,7 @@ On CNSA, the pinout from left to right on my photo is:
 5. GND (black in my circuit)
 
 Accidentally connecting +12V to any of the other 4 pins is likely to end up damaging your aircon unit. Be careful!
+
+I was able to simply plug my project into the connector, and the place the box towards the back at the bottom of the circuit board, and then cover it with the metal cover before re-assembling the unit.
+
+However you fit it, I recommend you check that it works before putting the plastic covers back onto the AC unit. They're hard to get off, so you don't want to have to do it more often than necessary.
