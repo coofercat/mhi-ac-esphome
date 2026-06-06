@@ -25,8 +25,8 @@ This project needs some components which are hopefully easy to source. They are:
 - A 4K7 resistor (although maybe 3K9 or 3K3 would be better?)
 - some wires, soldering iron, patience, etc.
 
-Pretty much any ESP32 would probably work fine. As far as I know they all have SPI pins available, so they'll be fine for this. You absolutely need a level shifter because the aircon unit had 5V signals which will damage an ESP if they aren't shifted down to 3.3V first.
-The aircon unit supplies 12V, so I used a buck converter to keep the heat down. I also picked a fixed 5V variety so that there was much less chance of accidentally getting anything other than 5V out of it.
+Pretty much any ESP32 would probably work fine. As far as I know they all have SPI pins available, so they'll be fine for this. You absolutely need a level shifter because the aircon unit has 5V signals which will damage an ESP if they aren't shifted down to 3.3V first.
+The aircon unit supplies 12V, so I used a buck converter to make 5V and to keep the heat down. I also picked a fixed 5V variety so that there was much less chance of accidentally getting anything other than 5V out of it.
 
 With regards the resistor, this is required to pull the MISO pin low during power up. If it's not held low, the level shifter seems to pull it high enough that it stop the ESP32 from booting properly. I used 4K7s for mine, but in one case I had to substitute a 3K9 to make it work. As such, a slightly lower value may be preferable for all new implementations.
 
