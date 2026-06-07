@@ -2,7 +2,7 @@
 
 ## Mitsubishi, or Mitsubishi?
 
-There are two companies with competing air conitioner products. There's Mitsubishi Electric Corporation and Mitsubishi Heavy Industries. This project refers to the Mitsubishi Heavy Industries (MHI) line only. If you have a Mitsubishi Electric Corporation air conditioner, this project is not compatible (although extremely similar).
+There are two companies with competing air conitioner products. There's **Mitsubishi Electric Corporation** and **Mitsubishi Heavy Industries**. This project refers to the **Mitsubishi Heavy Industries (MHI)** line only. If you have a Mitsubishi Electric Corporation air conditioner, this project is not compatible (although extremely similar).
 
 ## What is this project?
 
